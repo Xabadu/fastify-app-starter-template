@@ -1,0 +1,36 @@
+{
+  "name": "fastify-app-starter-template",
+  "version": "1.0.0",
+  "description": "An app starter template with Fastify that I use for live streams",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Xabadu/fastify-app-starter-template.git"
+  },
+  "author": "Xabadu <xabadu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xabadu/fastify-app-starter-template/issues"
+  },
+  "homepage": "https://github.com/Xabadu/fastify-app-starter-template#readme",
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7",
+    "prettier": "2.2.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fastify": "^3.14.2",
+    "fastify-cors": "^5.2.0",
+    "fastify-helmet": "^5.3.1"
+  }
+}
