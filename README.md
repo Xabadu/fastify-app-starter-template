@@ -23,7 +23,9 @@ This is a template that uses Fastify to kickstart app development.
 npm install
 ```
 
-3. Run the app
+3. (Optional) Rename `.env.example` to `.env` and replace with your own values for NODE_ENV and PORT. The template has default for the values if you prefer to skip this step.
+
+4. Run the app
 
 ```
 npm run dev
