@@ -2,6 +2,10 @@
 
 This is a template that uses Fastify to kickstart app development.
 
+## Usage
+
+You can either clone this repo directly or use [this CLI](https://github.com/Xabadu/create-fastify-app) that will pull the template and set up your app.
+
 ## Dependencies
 
 - [fastify](https://fastify.io)
